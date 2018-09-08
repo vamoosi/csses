@@ -1,217 +1,105 @@
-.fakeButtons {
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  border: 1px solid #000;
-  position: relative;
-  top: 6px;
-  left: 6px;
-  background-color: #ff3b47;
-  border-color: #9d252b;
-  display: inline-block;
-}
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Source+Code+Pro:700)
 
-.fakeMinimize {
-  left: 11px;
-  background-color: #ffc100;
-  border-color: #9d802c;
-}
+$font-size: 16px
+$width: 800px
+$border-radius: 10px
 
-.fakeZoom {
-  left: 16px;
-  background-color: #00d742;
-  border-color: #049931;
-}
+$black: #222
+$grey-dark: #999
+$grey-light: #ddd
+$blue: #09a3d5
+$purple: #8130c9
+$red: #e4514f
+$yellow: #f4c025
+$green: #3ec930
 
-.fakeMenu {
-  width: 350px;
-  box-sizing: border-box;
-  height: 25px;
-  background-color: #bbb;
-  margin: 0 auto;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-}
+*
+  padding: 0
+  margin: 0
+  
+.window
+  background: $grey-light
+  border-radius: $border-radius
+  display: flex
+  flex-flow: row wrap
+  position: relative
+  width: $width
+  
+.title
+  flex: 1
+  text-align: center
+  padding: 0.75em
 
-.fakeScreen {
-  background-color: #151515;
-  box-sizing: border-box;
-  width: 350px;
-  margin: 0 auto;
-  padding: 20px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
+.icons
+  padding: 0.75em
+  position: absolute
 
-p {
-  position: relative;
-  left: 50%;
-  margin-left: -8.5em;
-  text-align: left;
-  font-size: 1.25em;
-  font-family: monospace;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 0;
-}
+  span
+    @extend %icon
+    background: $yellow
+  
+  &:before
+    @extend %icon
+    content: ''
+    background: $red
+  
+  &:after
+    @extend %icon
+    content: ''
+    background: $green
 
-span {
-  color: #fff;
-  font-weight: bold;
-}
+%icon
+  display: inline-block
+  float: left
+  width: 1em
+  height: 1em
+  border-radius: 50%
+  margin-right: 0.5em
 
-.line1 {
-  color: #9CD9F0;
-  -webkit-animation: type .5s 1s steps(20, end) forwards;
-  -moz-animation: type .5s 1s steps(20, end) forwards;
-  -o-animation: type .5s 1s steps(20, end) forwards;
-  animation: type .5s 1s steps(20, end) forwards;
-}
+pre
+  background: #222
+  border-bottom-left-radius: $border-radius
+  border-bottom-right-radius: $border-radius
+  color: #fff
+  overflow: scroll
+  padding: 2.5em
+  width: 100%
+  -webkit-font-smoothing: antialiased
 
-.cursor1 {
-  -webkit-animation: blink 1s 2s 2 forwards;
-  -moz-animation: blink 1s 2s 2 forwards;
-  -o-animation: blink 1s 2s 2 forwards;
-  animation: blink 1s 2s 2 forwards;
-}
+  code
+    font: bold #{1em}/#{1.75} 'Source Code Pro', monospace
+    
+    &:after
+      animation: blink 0.9s infinite
+      font: initial
+      display: block
+      opacity: 1
+      content: '\258b'
+  
+.token.punctuation
+  color: $grey-dark
 
-.line2 {
-  color: #CDEE69;
-  -webkit-animation: type .5s 4.25s steps(20, end) forwards;
-  -moz-animation: type .5s 4.25s steps(20, end) forwards;
-  -o-animation: type .5s 4.25s steps(20, end) forwards;
-  animation: type .5s 4.25s steps(20, end) forwards;
-}
+.token.boolean,
+.token.number
+  color: $purple
 
-.cursor2 {
-  -webkit-animation: blink 1s 5.25s 2 forwards;
-  -moz-animation: blink 1s 5.25s 2 forwards;
-  -o-animation: blink 1s 5.25s 2 forwards;
-  animation: blink 1s 5.25s 2 forwards;
-}
+.token.keyword
+  color: $blue
 
-.line3 {
-  color: #E09690;
-  -webkit-animation: type .5s 7.5s steps(20, end) forwards;
-  -moz-animation: type .5s 7.5s steps(20, end) forwards;
-  -o-animation: type .5s 7.5s steps(20, end) forwards;
-  animation: type .5s 7.5s steps(20, end) forwards;
-}
-
-.cursor3 {
-  -webkit-animation: blink 1s 8.5s 2 forwards;
-  -moz-animation: blink 1s 8.5s 2 forwards;
-  -o-animation: blink 1s 8.5s 2 forwards;
-  animation: blink 1s 8.5s 2 forwards;
-}
-
-.line4 {
-  color: #fff;
-  -webkit-animation: type .5s 10.75s steps(20, end) forwards;
-  -moz-animation: type .5s 10.75s steps(20, end) forwards;
-  -o-animation: type .5s 10.75s steps(20, end) forwards;
-  animation: type .5s 10.75s steps(20, end) forwards;
-}
-
-.cursor4 {
-  -webkit-animation: blink 1s 11.5s infinite;
-  -moz-animation: blink 1s 8.5s infinite;
-  -o-animation: blink 1s 8.5s infinite;
-  animation: blink 1s 8.5s infinite;
-}
-
-@-webkit-keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@-moz-keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@-o-keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes type {
-  to {
-    width: 17em;
-  }
-}
-
-@-moz-keyframes type {
-  to {
-    width: 17em;
-  }
-}
-
-@-o-keyframes type {
-  to {
-    width: 17em;
-  }
-}
-
-@keyframes type {
-  to {
-    width: 17em;
-  }
-}
+.token.operator
+  color: $red
+  
+@keyframes blink
+  0% 
+    opacity: 1
+  50%
+    opacity: 0
+  100%
+    opacity: 1
+  
+@media(max-width: #{$width})
+  pre
+    font-size: 10px
+    
+  .window
+    width: 70%

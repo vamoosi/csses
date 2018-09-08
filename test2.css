@@ -1,84 +1,60 @@
-*{
-  margin:0;
-  padding:0;
+@import "compass";
+
+.terminal {
+  margin: 30px auto 0;
+  width: 700px;
 }
 
-@-webkit-keyframes animado {
-
-	10% {
-		opacity: 0;
-	}
-  
-  40% {
-		opacity: 0;
-	}
-  
-  50% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 1;
-	}
-
-}
-
-#animado{
-	-webkit-animation: animado 1s linear infinite;
-	-moz-animation: animado 1s linear infinite;
-	-o-animation: animado 1s linear infinite;
-	animation: animado 1s linear infinite;
-  font-weight: bold;
-}
-
-#terminal{
-  background-color: #000;  
-  border: 5px solid #f39c12;
-  height: 300px;
-  margin: 0 auto;
-  width: 600px;
-}
-
-#terminal > p{
-  color: #fff;
-  margin-bottom: 10px;
-}
-
-#topo{
-  background-color: #f39c12;
-  padding: 5px;
-  position: relative;
+.header {
+  @include background( linear-gradient(center top, #f7f7f7 0%, #cfcfcf 5%, #aaaaaa 100%));
+  border-bottom-colors: none;
+  border-left-colors: none;
+  border-right-colors: none;
+  border-top-colors: none;
+  border-color: #9c9c9c #9c9c9c #111;
+  border-image: none;
+  border-style: solid;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-width: 1px;
+  color: #444;
+  display: block;
+  font-size: 13px;
+  height: 25px;
+  line-height: 25px;
   text-align: center;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
 }
 
-#topo > button#btnX{
-  background-color: #e74c3c;
-  border: 0;
-  color: #fff;
-  padding: 3px 20px;
-  position: absolute;
-  top: 0px;
-  right: 0px;
+.shell {
+  background-color: #3d3d3d;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  color: #eeeb82;
+  display: block;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-size: 17px;
+  line-height: 28px;
+  margin: 0;
+  overflow: hidden;
+  padding: 20px;
+  text-align: left;
 }
 
-#topo > button#btnMax{
-  background-color: transparent;
-  border: 0;
-  font-size: 15px;
-  position: absolute;
-  top: 0px;
-  right: 55px;
+.shell p {
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.7em;
 }
 
-#topo > button#btnMin{
-  background-color: transparent;
-  border: 0;
-  font-size: 18px;
-  position: absolute;
-  top: 3px;
-  right: 78px;
+.path {
+  user-select: none;
+  color: #71cfee;
+  padding-right: 0.6em;
 }
 
-#topo > p{
-  font-size: 18px;
+.prompt {
+  user-select: none;
+  color: #d74d52;
+  padding-right: 0.6em;
 }

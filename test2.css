@@ -1,4 +1,4 @@
-.window
+#window
   $color: #d19985
   position: absolute
   width: 500px
@@ -6,7 +6,7 @@
   background: $color
   outline: 1px solid #a07566
     
-  .content
+  #content
     background-color: white
     outline: 1px solid #b28271
     margin: 30px 7px 7px 7px
@@ -17,7 +17,7 @@
     cursor: auto
     line-height: 1.2em
   
-  .title-bar
+  #title-bar
     position: absolute
     top: 0
     right: 7px
@@ -25,7 +25,7 @@
       display: inline-block
       text-align: center
       font-weight: bold
-    .close
+    #close
       color: white
       background: #c75050
       width: 45px
@@ -33,7 +33,7 @@
       transition: all 0.15s
       &:hover
         background-color: #e04343
-    .minimize, .maximize
+    #minimize, #maximize
       width: 26px
       height: 20px
       margin: 0 1px 0 1px
@@ -41,9 +41,9 @@
       &:hover
         color: white
         background-color: #3665b3
-    .minimize:after
+    #minimize:after
       content: '_'
-    .maximize:after
+    #maximize:after
       content: '□'
-    .close:after
+    #close:after
       content: '×'

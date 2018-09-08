@@ -1,60 +1,159 @@
-@import "compass";
-
-.terminal {
-  margin: 30px auto 0;
-  width: 700px;
+@import 'https://fonts.googleapis.com/css?family=Inconsolata|Merriweather';
+$green: #00FF00;
+$black: #000000;
+$background: #028090;
+$gray: #DFDFDF;
+$red: #FF0000;
+$white: #FFFFFF;
+html {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: 'Merriweather', serif;
+    color: $green;
+  }
+  p,
+  input,
+  select,
+  button {
+    font-family: 'Inconsolata', monospace;
+    color: $green;
+  }
 }
 
-.header {
-  @include background( linear-gradient(center top, #f7f7f7 0%, #cfcfcf 5%, #aaaaaa 100%));
-  border-bottom-colors: none;
-  border-left-colors: none;
-  border-right-colors: none;
-  border-top-colors: none;
-  border-color: #9c9c9c #9c9c9c #111;
-  border-image: none;
-  border-style: solid;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
-  border-width: 1px;
-  color: #444;
-  display: block;
-  font-size: 13px;
-  height: 25px;
-  line-height: 25px;
-  text-align: center;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
-}
-
-.shell {
-  background-color: #3d3d3d;
-  border-bottom-left-radius: 7px;
-  border-bottom-right-radius: 7px;
-  color: #eeeb82;
-  display: block;
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-size: 17px;
-  line-height: 28px;
-  margin: 0;
-  overflow: hidden;
-  padding: 20px;
-  text-align: left;
-}
-
-.shell p {
-  font-weight: bold;
-  margin: 0;
-  line-height: 1.7em;
-}
-
-.path {
-  user-select: none;
-  color: #71cfee;
-  padding-right: 0.6em;
-}
-
-.prompt {
-  user-select: none;
-  color: #d74d52;
-  padding-right: 0.6em;
+.container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  .shell-container {
+    margin: auto;
+    background-color: $black;
+    width: 900px;
+    height: 500px;
+    box-shadow: 0 0 10px $black;
+    display: flex;
+    flex-direction: column;
+    .header-shell{
+      margin: auto;
+      background-color: white;
+      width: 100%;
+      height: 35px;
+      display: flex;
+      .cli-img{
+        margin: auto 5px;
+        width: 20px;
+        height: 20px;
+      }
+      .shell-title{
+        font-size: 13px;
+        margin: auto 0;
+        color: $black;
+      }
+      .minimize{
+        margin: 1px 1px 1px auto;
+        width: 46px;
+        height: 33px;
+        display: flex;
+        &:hover{
+          background-color: $gray;
+          color: $white;
+        }
+        &:after{
+          content: '';
+          transform: rotate(90deg);
+          margin: auto;
+          border: 0.5px solid gray;
+          height: 10px;
+        }
+        &:hover:after{
+          border-color: $black;
+        }
+      }
+       .maximize{
+        display: flex;
+        margin: 1px 0;
+        width: 46px;
+        height: 33px;
+        content: "-";
+        &:hover{
+          background-color: $gray;
+          color: $white;
+        }
+        &:after{
+          content: '';
+          transform: rotate(90deg);
+          margin: auto;
+          border: 1px solid gray;
+          height: 7.5px;
+          width: 7.5px;
+        }
+        &:hover:after{
+          border-color: $black;
+        }
+      }
+      .close{
+        display: flex;
+        margin: 1px;
+        width: 46px;
+        height: 33px;
+        &:hover{
+          background-color: $red;
+          color: $white;
+        }
+        &:before{
+          content: '';
+          transform: rotate(-135deg) translate(-50%, 0%);
+          margin: auto 0 auto auto;
+          border: 0.5px solid gray;
+          height: 13px;
+        }
+        &:hover:before{
+          border-color: $white;
+        }
+        &:after{
+          content: '';
+          transform: rotate(135deg) translate(50%, 0%);
+          margin: auto auto auto 0;
+          border: 0.5px solid gray;
+          height: 13px;
+        }
+        &:hover:after{
+          border-color: $white;
+        }
+      }
+    }
+    .body-shell{
+      margin: auto;
+      overflow-y: scroll;
+      height: 470px;
+      width: 100%;
+      line-height: 0px;
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+      .microsoft-label{
+        margin: 9px 0;
+      }
+      .input{
+        margin-top: 25px;
+        display: flex;
+        .ping{
+          margin: auto 2px -5px;
+          width: 7px;
+          height: 4px;
+          animation: pong 1s infinite;
+        }
+      }
+    }
+    @keyframes pong {
+      0%{background-color: $gray;}
+      50%{background-color: $gray;}
+      51%{background-color: $black;}
+    }
+  }
 }

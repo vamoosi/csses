@@ -134,14 +134,14 @@ div.container.main {
     transition:0.3s ease ease-in-out!important;
 }
 
-.breadcrumb {
+.breadcrumb, .breadcrumb .active {
     background: #FFFFFF  !important;
     color: #27BCB1!important;
     border:none!important;
   font-family: 'Lekton' !important;
     border-radius: 20px / 170px !important;
 }
-.breadcrumb a { color:#27BCB1!important; }
+.breadcrumb a { color:#754C88!important; }
 
 .feature {
     background: #a67f9e  !important;

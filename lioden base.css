@@ -50,7 +50,7 @@ a:link {
 }
 
 a:visited {
-    color: #384588 !important;
+    color: #5d3d6c !important;
 }
     
 a:hover {
@@ -94,6 +94,7 @@ h3 {
     text-align: center !important;
     color: #27BCB1 !important;
     font-family: 'Lekton' !important;
+	font-weight:bold;
     text-transform:uppercase;
     border-bottom:3px solid #D8B6BC;
 }
@@ -101,24 +102,24 @@ h3 {
 /*SideBar*/
 div.container.main {
     background-color:#754C88!important;
-  border-top-right-radius: 35px;
+  border-top-right-radius: 5px;
     border: none!important;
     box-shadow:none!important;
 }
 
 .col-md-9.col-xs-12 {
     background-color:rgba(0,0,0, .0)!important;
-  border-top-right-radius: 35px;
+  border-top-right-radius: 5px;
     border: none!important;
 }
 
 .navbar {
     background:  #252525 !important;
-  border-top-right-radius: 35px;
-    border: none!important;
+  border-top-right-radius: 5px;
+    border: 1px dashed #27BCB1!important;
     box-shadow: none !important;
     font-family: 'Lekton' !important;
-    border-bottom:3px solid #D8B6BC!important;
+    border-bottom:3px double #4D82C7!important;
 }
     
 .navbar li a {
@@ -128,7 +129,7 @@ div.container.main {
     
 .navbar li a:hover {
    color: #27BCB1 !important;
-     background: #FFFFFF!important;
+     background: #2A4A87!important;
   border-radius: 35px;
     transition:0.3s ease ease-in-out!important;
 }
@@ -138,7 +139,7 @@ div.container.main {
     color: #27BCB1!important;
     border:none!important;
   font-family: 'Lekton' !important;
-    border-radius:35px!important;
+    border-radius:20px / 170px !important;
 }
 .breadcrumb a { color:#27BCB1!important; }
 

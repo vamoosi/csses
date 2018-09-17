@@ -499,22 +499,19 @@ overflow:Auto;
  /*left: 100px;
     top: 150px;*/
 
-.hbox3 {
+.hbox2 {
 background:#FAF4EE;
 text-align:center;
+color:#474350 ;
 width:240px;
-  color:#474350 ;
 	height:350px;	
-  left: 245px;
-    top: -750px;
-text-align:center;
-  font-family: 'Nova Mono' !important;
 border:1px solid #dddddd !important;
+  font-family: 'Nova Mono' !important;
 transition:all ease 2s;
 border-radius:25px!important;
-  
-overflow:Auto;
-/*display:fixed;*/
+ float:center;
+ overflow:auto;
   position: relative;
-   margin-bottom: -700px;
+  left: -1px;
+  top: -360px;
 }

@@ -130,7 +130,7 @@ div.container.main {
 .navbar li a:hover {
    color: #27BCB1 !important;
      background: #2A4A87!important;
-  border-radius: 35px;
+  border-radius: 20px / 170px !important;
     transition:0.3s ease ease-in-out!important;
 }
 
@@ -139,7 +139,7 @@ div.container.main {
     color: #27BCB1!important;
     border:none!important;
   font-family: 'Lekton' !important;
-    border-radius:20px / 170px !important;
+    border-radius: 20px / 170px !important;
 }
 .breadcrumb a { color:#27BCB1!important; }
 

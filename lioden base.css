@@ -482,7 +482,7 @@ overflow:hidden;
 background:#FAF4EE;
 text-align:center;
 color:#474350 ;
-width:605px;
+width:240px;
 	height:350px;	
   left: -245px;
     top: 32px;
@@ -496,8 +496,7 @@ overflow:Auto;
   position: relative;
 }
 
- /*left: 100px;
-    top: 150px;*/
+
 
 .hbox2 {
 background:#FAF4EE;
@@ -514,5 +513,27 @@ border-radius:25px!important;
   position: relative;
   left: -1px;
   top: -360px;
-	margin-bottom: -700px;
+}
+
+ /*left: 100px;
+    top: 150px;*/
+
+.hbox3 {
+background:#FAF4EE;
+text-align:center;
+width:240px;
+  color:#474350 ;
+	height:350px;	
+  left: 245px;
+    top: -750px;
+text-align:center;
+  font-family: 'Nova Mono' !important;
+border:1px solid #dddddd !important;
+transition:all ease 2s;
+border-radius:25px!important;
+  
+overflow:Auto;
+/*display:fixed;*/
+  position: relative;
+   margin-bottom: -700px;
 }

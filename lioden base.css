@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Mono');
+
+body 
+{
+background:url('https://i.imgur.com/7LD0pDH.jpg');
+background-repeat: repeat;
+background-attachment: fixed;
+  background-size: 100% 100%;
+  
+background-size:100%;
+/*player card */
+color: #ec8e9e;
+}
+
+
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url("https://i.imgur.com/7LD0pDH.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+::-webkit-scrollbar {
+    width: 6px!important;
+}
+
+::-webkit-scrollbar-track {
+    background-color:#ec8e9e!important;
+  border-top-right-radius: 35px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: #51435D!important;
+  border-top-right-radius: 35px;
+}
+
+b { font-weight:300!important; }
+
+a:link {
+    color: #ec8e9e !important;
+}
+
+a:visited {
+    color: #ec8e9e !important;
+}
+    
+a:hover {
+color: #ec8e9e !important;}
+
+.center.b {
+color: #ec8e9e !important;
+}
+
+h1 {
+    text-align: center !important;
+    color: #ec8e9e !important;
+    font-family: 'Nova Mono' !important;
+    font-size:45px!important;
+    text-transform:uppercase;
+    letter-spacing:15px;
+    margin-left:15px!important;
+}
+
+.prideName {
+    font-size:80px;
+    font-family: 'Nova Mono';
+    text-align:center;
+    color: #ec8e9e;
+    text-transform:uppercase;
+    margin-top:-20px;
+}
+
+.prideSub {
+    text-align: center;
+   color: #ec8e9e !important;
+    font-family: 'Nova Mono';
+    font-size:35px;
+    text-transform:uppercase;
+    letter-spacing:10px;
+    margin-left:10px;
+    margin-top:-20px;
+}
+    
+h3 {
+    text-align: center !important;
+    color: #ec8e9e !important;
+    font-family: 'Nova Mono' !important;
+    text-transform:uppercase;
+    border-bottom:3px solid #ec8e9e;
+}
+
+/*SideBar*/
+div.container.main {
+    background-color:rgba(255, 189, 163, .2)!important;
+  border-top-right-radius: 35px;
+    border: none!important;
+    box-shadow:none!important;
+}
+
+.col-md-9.col-xs-12 {
+    background-color:rgba(0,0,0, .0)!important;
+  border-top-right-radius: 35px;
+    border: none!important;
+}
+
+.navbar {
+    background:  #cc6b8e !important;
+  border-top-right-radius: 35px;
+    border: none!important;
+    box-shadow: none !important;
+    font-family: 'Nova Mono' !important;
+    border-bottom:3px solid #ec8e9e!important;
+}
+    
+.navbar li a {
+    color: #ec8e9e !important;
+    transition:0.3s ease ease-in-out!important;
+}
+    
+.navbar li a:hover {
+   color: #ec8e9e !important;
+     background: #904a6c!important;
+  border-radius: 35px;
+    transition:0.3s ease ease-in-out!important;
+}
+
+.breadcrumb {
+    background: #51435d  !important;
+    color: #ec8e9e!important;
+    border:none!important;
+  font-family: 'Nova Mono' !important;
+    border-radius:35px!important;
+}
+.breadcrumb a { color:#ec8e9e!important; }
+
+.feature {
+    background: #a67f9e  !important;
+    color: #ec8e9e!important;
+    border: none!important;
+}
+
+.topbar {
+    background: #904a6c  !important;
+    color: #ec8e9e !important;
+  font-family: 'Nova Mono' !important;
+    border: none !important;
+    border-bottom:3px solid #ec8e9e!important;
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+
+.topbar a { color:#ec8e9e!important; }
+
+.sidebar {
+    background: #904a6c  !important;
+color:#ec8e9e!important;
+  font-family: 'Nova Mono' !important;
+    border: none !important;
+}
+
+.sidebar a { color:#ec8e9e!important; }
+
+.panel {
+    background: #51435d !important;
+    border: none !important;
+   color: #ec8e9e!important;
+    box-shadow: none !important;
+  font-family: 'Nova Mono' !important;
+    border-radius:35px!important;
+}
+
+.panel a { color:#ec8e9e!important; }
+
+.chat_light {
+    background: #cc6b8e !important;
+    color: #ec8e9e!important;
+  font-family: 'Nova Mono' !important;
+     border-bottom:3px solid #ec8e9e!important;
+}
+.chat_light a { color:#ec8e9e!important; }
+    
+.chat_dark {
+    background:  #51435d !important;
+    color: #ec8e9e !important;
+  font-family: 'Nova Mono' !important;
+     border-bottom:3px solid #ec8e9e!important;
+}
+.chat_dark a { color:#ec8e9e!important; }
+
+.progress {
+    background: #cc6b8e  !important;
+    border: none!important;
+  font-family: 'Nova Mono' !important;
+    border-radius:35px!important;
+}
+    
+.progress div {
+    color: #ec8e9e !important;
+}
+    
+.progress-bar-warning {
+    background: #3d6a67 !important;
+}
+    
+.progress-bar-danger {
+    background: #3d6a67 !important;
+}
+    
+.progress-bar-success {
+    background: #3d6a67 !important;
+}
+    
+.progress-bar {
+    background: #904a6c !important;
+}
+
+.chat_row a { color:#ddd!important; }
+
+table { border:none!important; }
+
+.top {
+    background: #904a6c !important;
+    color: #ec8e9e !important;
+    border: none!important;
+    text-align: center !important;
+ font-family: 'Nova Mono' !important;
+    text-transform:uppercase;
+    border-bottom:3px solid #ec8e9e  !important;
+    background-repeat: repeat;
+    font-size:20px!important;
+    letter-spacing:3px!important;
+  border-top-right-radius: 35px;
+  border-top-left-radius: 35px;
+}
+
+.top a { color:#ec8e9e    !important; }
+
+th {
+    background: #904a6c !important;
+   color:#ec8e9e    !important;
+    border: none!important;
+    text-align: center !important;
+    font-family: 'Nova Mono' !important;
+    font-size:15px!important;
+    text-transform:uppercase;
+  border-bottom:3px solid #ec8e9e  !important;
+    background-repeat: repeat;
+    letter-spacing:3px!important;
+  border-top-right-radius: 35px;
+  border-top-left-radius: 35px;
+}
+
+.th a { color:#ec8e9e  !important; }
+
+.bottom {
+    background: #904a6c !important;
+    color: #ec8e9e   !important;
+    border: none!important;
+  border-top:3px solid #ec8e9e  !important;
+    text-align: center !important;
+   font-family: 'Nova Mono' !important;
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+
+.bottom a { color:#ec8e9e  !important; }
+
+.dynastylist .left { 
+    background-color:#904a6c!important;
+  font-family: 'Nova Mono' !important;
+    border:2px solid #ec8e9e  !important;
+}
+
+
+.left {
+    background:  #51435d !important;
+    color: #ec8e9e  !important;
+    border: none!important;
+    text-align: center !important;
+    font-family: 'Nova Mono' !important;
+    border-radius:0px!important;
+}
+
+td {
+    background:#cc6b8e  !important;
+    color: #ec8e9e !important;
+  font-family: 'Nova Mono' !important;
+    border: none !important;
+}
+
+td .right { 
+    background-color:#cc6b8e!important;
+  color: #ec8e9e !important;
+    border-radius:0px!important; 
+  font-family: 'Nova Mono' !important;
+}
+
+td .right a { color:#ec8e9e!important; }
+
+.table .right {
+background: #cc6b8e !important;
+color: #ec8e9e   !important;
+  font-family: 'Nova Mono' !important;
+}
+
+.right_cub {
+    background: #904a6c !important;
+  font-family: 'Nova Mono' !important;
+}
+
+.right_cub a {
+    color:#ec8e9e!important;
+}
+
+.feature {
+background: #cc6b8e !important;
+color: #ec8e9e !important;
+border: border:2px solid #ec8e9e !important;
+}
+
+.cave-grid, .mound-grid {
+    background: #51435d !important;
+    border-radius:0px!important;
+    text-transform:uppercase!important;
+  font-family: 'Nova Mono' !important;
+    border:2px solid #ec8e9e!important;
+}
+
+.cave-grid img{
+content:url("https://i.imgur.com/prtHMNB.png");
+    height: 130px;
+    width: 250px;
+}
+
+.mound-grid img{
+content:url("https://i.imgur.com/Bh9R09e.png");
+    height: 130px;
+    width: 250px;
+}
+
+#lion_image {
+overflow: hidden;
+border: 1px solid rgba(159,108,51, 0.0);
+  border-radius:100px!important;
+}
+
+div#lion_image>div
+{
+ border-radius:100px!important;
+background:#51435d !important;
+}
+
+body > div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
+    content:url('https://i.imgur.com/iR7byT4.png')!important;
+}
+
+/*Buttons/Stuff*/
+
+input[type="button"] {
+    background: #51435d !important;
+    color: #ec8e9e  !important;
+    border: none !important;
+    text-align: center !important;
+  font-family: 'Nova Mono' !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    border-radius:0!important;
+}
+    
+input[type="submit"] {
+background: #51435d !important;    
+  color: #ec8e9e  !important;
+    border: none !important;
+    text-align: center !important;
+  font-family: 'Nova Mono' !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    border-radius:0!important;
+}
+    
+input[type="text"] {
+    background: #51435d !important;
+    color: #ec8e9e  !important;
+    border: none !important;
+    text-shadow: none !important;
+      font-family: 'Nova Mono' !important;
+    box-shadow: none !important;
+}
+    
+input[type="password"] {
+    background: #51435d !important;
+    color: #ec8e9e  !important;
+    border: none !important;
+  font-family: 'Nova Mono' !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+    
+textarea {
+    background: #51435d !important;
+    color: #ec8e9e  !important;
+    border: none !important;
+  font-family: 'Nova Mono' !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    white-space:normal!important;
+}
+    
+select {
+    background: #51435d !important;
+    color: #ec8e9e  !important;
+    border: none !important;
+  font-family: 'Nova Mono' !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/*Bottom Slider*/
+
+.item {
+    border:none!important;
+    border-radius:0px!important;
+    background:#51435d!important;
+}
+
+.item-header {
+     background:#904a6c!important;
+     color:#ec8e9e!important;
+  font-family: 'Nova Mono' !important;
+     border-radius:0px!important;
+ }
+
+ input:checked + .slider {
+     background:#904a6c!important;
+ }
+/*Sliders end*/
+
+.alert-danger, .attack-lost {
+    background: #904a6c !important;
+  color: #ec8e9e !important;
+  border: none!important;
+  font-family: 'Nova Mono' !important;
+    border-radius:0px!important;
+
+}
+    
+.alert-success, .attack-won {
+    background: #904a6c !important;
+    color: #ec8e9e !important;
+    border: none!important;
+  font-family: 'Nova Mono' !important;
+    border-radius:0px!important;
+}
+
+.alert-success a, .attack-won a { color: #ec8e9e!important; }
+.alert-danger a, .attack-lost a { color:#ec8e9e!important;; }
+
+
+
+#txtChatMessage {
+background: #51435d;
+  font-family: 'Nova Mono' !important;
+color: #ec8e9e;
+}
+
+.badge {
+background: #51435d;
+  font-family: 'Nova Mono' !important;
+  color: #ec8e9e!important;
+}
+
+
+/*-----------------------------*/
+
+
+/*Tables*/
+
+.boxcontainer { 
+overflow:hidden;
+}
+
+.hbox1 {
+background:#cc6b8e;
+text-align:center;
+color:#ec8e9e ;
+width:350px;
+	height:350px;	
+  left: -245px;
+    top: 32px;
+text-align:center;
+border:1px solid #ec8e9e !important;
+  font-family: 'Nova Mono' !important;
+transition:all ease 2s;
+border-radius:25px!important;
+overflow:Auto;
+/*display:fixed;*/
+  position: relative;
+}
+
+
+
+.hbox2 {
+background:#cc6b8e;
+text-align:center;
+color:#ec8e9e ;
+width:450px;
+	height:350px;	
+border:1px solid #ec8e9e !important;
+  font-family: 'Nova Mono' !important;
+transition:all ease 2s;
+border-radius:25px!important;
+ float:center;
+ overflow:auto;
+  position: relative;
+  left: 180px;
+  top: -360px;
+}
+
+ /*left: 100px;
+    top: 150px;*/
+
+.hbox3 {
+background:#cc6b8e;
+text-align:center;
+width:450px;
+  color:#ec8e9e ;
+	height:350px;	
+  left: -195px;
+    top: -360px;
+text-align:center;
+  font-family: 'Nova Mono' !important;
+border:1px solid #ec8e9e !important;
+transition:all ease 2s;
+border-radius:25px!important;
+overflow:Auto;
+/*display:fixed;*/
+  position: relative;
+}
+
+.hbox4 {
+background:#cc6b8e;
+text-align:center;
+width:350px;
+  color:#ec8e9e ;
+	height:350px;	
+  left: 225px;
+    top: -750px;
+text-align:center;
+  font-family: 'Nova Mono' !important;
+border:1px solid #ec8e9e !important;
+transition:all ease 2s;
+border-radius:25px!important;
+  
+overflow:Auto;
+/*display:fixed;*/
+  position: relative;
+   margin-bottom: -700px;
+}

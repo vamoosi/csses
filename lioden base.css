@@ -494,7 +494,6 @@ transition:all ease 2s;
 border-radius:20px / 200px !important;
 overflow:Auto;
 /*display:fixed;*/
-  position: relative;
 }
 
 .hbox2{
@@ -514,5 +513,4 @@ transition:all ease 2s;
 border-radius:20px / 200px !important;
 overflow:Auto;
 /*display:fixed;*/
-  position: relative;
 }

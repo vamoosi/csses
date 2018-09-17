@@ -46,15 +46,15 @@ body:before {
 b { font-weight:300!important; }
 
 a:link {
-    color: #754C88 !important;
+    color: #5d3d6c !important;
 }
 
 a:visited {
-    color: #5d3d6c !important;
+    color: #754C88!important;
 }
     
 a:hover {
-color: #f5f5f5 !important;}
+color: #252525 !important;}
 
 .center.b {
 color: #384588 !important;
@@ -163,13 +163,14 @@ div.container.main {
 .topbar a { color:#384588!important; }
 
 .sidebar {
-    background: #EFE2D2  !important;
+    background: #dce8e8  !important;
 color:#384588!important;
   font-family: 'Lekton' !important;
     border: none !important;
 }
 
 .sidebar a { color:#384588!important; }
+.sidebar a hover { color:#252525!important; }
 
 .panel {
     background: #FFFFFF !important;
@@ -186,17 +187,19 @@ color:#384588!important;
     background: #f5f5f5 !important;
     color: #384588!important;
   font-family: 'Lekton' !important;
-     border-bottom:3px solid #D8B6BC!important;
+     border-bottom:1px dotted #9ad2d2!important;
 }
-.chat_light a { color:#384588!important; }
+.chat_light a { color:#5d3d6c!important; }
+.chat_light a hover { color:#252525!important; }
     
 .chat_dark {
     background:  #FFFFFF !important;
     color: #384588 !important;
   font-family: 'Lekton' !important;
-     border-bottom:3px solid #D8B6BC!important;
+     border-bottom:1px dotted #9ad2d2!important;
 }
-.chat_dark a { color:#384588!important; }
+.chat_dark a { color:#5d3d6c!important; }
+.chat_dark a hover { color:#252525!important; }
 
 .progress {
     background: #f5f5f5  !important;

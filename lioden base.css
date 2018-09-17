@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nova+Mono');
+@import url('https://fonts.googleapis.com/css?family=Assistant');
 
 body 
 {
@@ -63,7 +63,7 @@ color: #474350 !important;
 h1 {
     text-align: center !important;
     color: #474350 !important;
-    font-family: 'Nova Mono' !important;
+    font-family: 'Assistant' !important;
     font-size:45px!important;
     text-transform:uppercase;
     letter-spacing:15px;
@@ -72,7 +72,7 @@ h1 {
 
 .prideName {
     font-size:80px;
-    font-family: 'Nova Mono';
+    font-family: 'Assistant';
     text-align:center;
     color: #474350;
     text-transform:uppercase;
@@ -82,7 +82,7 @@ h1 {
 .prideSub {
     text-align: center;
     color: #474350;
-    font-family: 'Nova Mono';
+    font-family: 'Assistant';
     font-size:35px;
     text-transform:uppercase;
     letter-spacing:10px;
@@ -93,7 +93,7 @@ h1 {
 h3 {
     text-align: center !important;
     color: #474350 !important;
-    font-family: 'Nova Mono' !important;
+    font-family: 'Assistant' !important;
     text-transform:uppercase;
     border-bottom:3px solid #D8B6BC;
 }
@@ -117,7 +117,7 @@ div.container.main {
   border-top-right-radius: 35px;
     border: none!important;
     box-shadow: none !important;
-    font-family: 'Nova Mono' !important;
+    font-family: 'Assistant' !important;
     border-bottom:3px solid #D8B6BC!important;
 }
     
@@ -137,7 +137,7 @@ div.container.main {
     background: #FFFFFF  !important;
     color: #474350!important;
     border:none!important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
     border-radius:35px!important;
 }
 .breadcrumb a { color:#474350!important; }
@@ -151,7 +151,7 @@ div.container.main {
 .topbar {
     background: #EFE2D2  !important;
     color: #474350 !important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
     border: none !important;
     border-bottom:3px solid #D8B6BC!important;
   border-bottom-right-radius: 35px;
@@ -163,7 +163,7 @@ div.container.main {
 .sidebar {
     background: #EFE2D2  !important;
 color:#474350!important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
     border: none !important;
 }
 
@@ -174,7 +174,7 @@ color:#474350!important;
     border: none !important;
    color: #474350!important;
     box-shadow: none !important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
     border-radius:35px!important;
 }
 
@@ -183,7 +183,7 @@ color:#474350!important;
 .chat_light {
     background: #FAF4EE !important;
     color: #474350!important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
      border-bottom:3px solid #D8B6BC!important;
 }
 .chat_light a { color:#474350!important; }
@@ -191,7 +191,7 @@ color:#474350!important;
 .chat_dark {
     background:  #FFFFFF !important;
     color: #474350 !important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
      border-bottom:3px solid #D8B6BC!important;
 }
 .chat_dark a { color:#474350!important; }
@@ -199,7 +199,7 @@ color:#474350!important;
 .progress {
     background: #FAF4EE  !important;
     border: none!important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
     border-radius:35px!important;
 }
     
@@ -232,7 +232,7 @@ table { border:none!important; }
     color: #474350 !important;
     border: none!important;
     text-align: center !important;
- font-family: 'Nova Mono' !important;
+ font-family: 'Assistant' !important;
     text-transform:uppercase;
     border-bottom:3px solid #D8B6BC  !important;
     background-repeat: repeat;
@@ -249,7 +249,7 @@ th {
    color:#474350    !important;
     border: none!important;
     text-align: center !important;
-    font-family: 'Nova Mono' !important;
+    font-family: 'Assistant' !important;
     font-size:15px!important;
     text-transform:uppercase;
   border-bottom:3px solid #D8B6BC  !important;
@@ -267,14 +267,14 @@ th {
     border: none!important;
   border-top:3px solid #D8B6BC  !important;
     text-align: center !important;
-   font-family: 'Nova Mono' !important;
+   font-family: 'Assistant' !important;
   border-bottom-right-radius: 35px;
   border-bottom-left-radius: 35px;
 }
 
 .dynastylist .left { 
     background-color:#EFE2D2!important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
     border:2px solid #D8B6BC  !important;
 }
 
@@ -284,14 +284,14 @@ th {
     color: #474350  !important;
     border: none!important;
     text-align: center !important;
-    font-family: 'Nova Mono' !important;
+    font-family: 'Assistant' !important;
     border-radius:0px!important;
 }
 
 td {
     background:#FAF4EE  !important;
     color: #474350 !important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
     border: none !important;
 }
 
@@ -299,7 +299,7 @@ td .right {
     background-color:#FAF4EE!important;
   color: #474350 !important;
     border-radius:0px!important; 
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
 }
 
 td .right a { color:#474350!important; }
@@ -307,12 +307,12 @@ td .right a { color:#474350!important; }
 .table .right {
 background: #FAF4EE !important;
 color: #474350   !important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
 }
 
 .right_cub {
     background: rgba(157, 173, 72, .2) !important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
 }
 
 .right_cub a {
@@ -323,7 +323,7 @@ color: #474350   !important;
     background: #FFFFFF !important;
     border-radius:0px!important;
     text-transform:uppercase!important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
     border:2px solid #D8B6BC!important;
 }
 
@@ -362,7 +362,7 @@ input[type="button"] {
     color: #474350  !important;
     border: none !important;
     text-align: center !important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
     text-shadow: none !important;
     box-shadow: none !important;
     border-radius:0!important;
@@ -373,7 +373,7 @@ background: #FFFFFF !important;
   color: #474350  !important;
     border: none !important;
     text-align: center !important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
     text-shadow: none !important;
     box-shadow: none !important;
     border-radius:0!important;
@@ -384,7 +384,7 @@ input[type="text"] {
     color: #474350  !important;
     border: none !important;
     text-shadow: none !important;
-      font-family: 'Nova Mono' !important;
+      font-family: 'Assistant' !important;
     box-shadow: none !important;
 }
     
@@ -392,7 +392,7 @@ input[type="password"] {
     background: #FFFFFF !important;
     color: #474350  !important;
     border: none !important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
     text-shadow: none !important;
     box-shadow: none !important;
 }
@@ -401,7 +401,7 @@ textarea {
     background: #FFFFFF !important;
     color: #474350  !important;
     border: none !important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
     text-shadow: none !important;
     box-shadow: none !important;
     white-space:normal!important;
@@ -411,7 +411,7 @@ select {
     background: #FFFFFF !important;
     color: #474350  !important;
     border: none !important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
     text-shadow: none !important;
     box-shadow: none !important;
 }
@@ -427,7 +427,7 @@ select {
 .item-header {
      background:#EFE2D2!important;
      color:#474350!important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
      border-radius:0px!important;
  }
 
@@ -440,7 +440,7 @@ select {
     background: #EFE2D2 !important;
   color: #474350 !important;
   border: none!important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
     border-radius:0px!important;
 
 }
@@ -449,7 +449,7 @@ select {
     background: #EFE2D2 !important;
     color: #474350 !important;
     border: none!important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
     border-radius:0px!important;
 }
 
@@ -458,13 +458,13 @@ select {
 
 #txtChatMessage {
 background: #FFFFFF;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
 color: #474350;
 }
 
 .badge {
 background: #FFFFFF;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
   color: #474350!important;
 }
 
@@ -489,7 +489,7 @@ width:63%;
     top: 32px;
 text-align:center;
 border:1px solid #dddddd !important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
 transition:all ease 2s;
 border-radius:20px / 200px !important;
 overflow:Auto;
@@ -509,7 +509,7 @@ width:35%;
     top: 32px;
 text-align:center;
 border:1px solid #dddddd !important;
-  font-family: 'Nova Mono' !important;
+  font-family: 'Assistant' !important;
 transition:all ease 2s;
 border-radius:20px / 200px !important;
 overflow:Auto;

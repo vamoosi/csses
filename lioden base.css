@@ -478,7 +478,27 @@ background: #FFFFFF;
 overflow:hidden;
 }
 
-.hbox1, .hbox2{
+.hbox1{
+display:inline-block;
+background:#FAF4EE;
+text-align:center;
+color:#474350 ;
+width:240px;
+	height:350px;	
+  left: -245px;
+    top: 32px;
+text-align:center;
+border:1px solid #dddddd !important;
+  font-family: 'Nova Mono' !important;
+transition:all ease 2s;
+border-radius:25px!important;
+overflow:Auto;
+/*display:fixed;*/
+  position: relative;
+}
+
+.hbox2{
+display:inline-block;
 background:#FAF4EE;
 text-align:center;
 color:#474350 ;

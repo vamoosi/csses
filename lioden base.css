@@ -137,7 +137,7 @@ div.container.main {
 .breadcrumb, .breadcrumb .active {
     background: #FFFFFF  !important;
     color: #27BCB1!important;
-    border:none!important;
+    border:1px dashed #4D82C7!important=;
   font-family: 'Lekton' !important;
     border-radius: 20px / 170px !important;
 }

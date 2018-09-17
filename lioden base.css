@@ -482,7 +482,7 @@ overflow:hidden;
 background:#FAF4EE;
 text-align:center;
 color:#474350 ;
-width:240px;
+width:605px;
 	height:350px;	
   left: -245px;
     top: 32px;
@@ -494,25 +494,6 @@ border-radius:25px!important;
 overflow:Auto;
 /*display:fixed;*/
   position: relative;
-}
-
-
-
-.hbox2 {
-background:#FAF4EE;
-text-align:center;
-color:#474350 ;
-width:240px;
-	height:350px;	
-border:1px solid #dddddd !important;
-  font-family: 'Nova Mono' !important;
-transition:all ease 2s;
-border-radius:25px!important;
- float:center;
- overflow:auto;
-  position: relative;
-  left: -1px;
-  top: -360px;
 }
 
  /*left: 100px;

@@ -177,7 +177,7 @@ color:#384588!important;
    color: #384588!important;
     box-shadow: none !important;
   font-family: 'Lekton' !important;
-    border-radius:35px!important;
+    border-radius:20px/200px;!important;
 }
 
 .panel a { color:#384588!important; }

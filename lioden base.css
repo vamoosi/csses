@@ -169,7 +169,7 @@ color:#384588!important;
 }
 
 .sidebar a { color:#384588!important; }
-.sidebar a hover { color:#252525!important; }
+.sidebar a:hover { color:#252525!important; }
 
 .panel {
     background: #FFFFFF !important;
@@ -191,7 +191,7 @@ color:#384588!important;
 }
 .chat_light a { color:#5d3d6c!important; 
 font-weight:bold!important;}
-.chat_light a hover { color:#252525!important; }
+.chat_light a:hover { color:#252525!important; }
     
 .chat_dark {
     background:  #FFFFFF !important;
@@ -202,7 +202,7 @@ font-weight:bold!important;}
 }
 .chat_dark a { color:#5d3d6c!important; 
 font-weight:bold!important;}
-.chat_dark a hover { color:#252525!important; }
+.chat_dark a:hover { color:#252525!important; }
 
 .progress {
     background: #f5f5f5  !important;
@@ -250,7 +250,7 @@ table { border:none!important; }
 }
 
 .top a { color:#384588    !important; }
-.top a hover { color:#252525 !important; }
+.top a:hover { color:#252525 !important; }
 
 th {
     background: #d8e9e9 !important;
@@ -267,7 +267,7 @@ th {
 }
 
 .th a { color:#384588  !important; }
-.th a hover { color:#252525 !important; }
+.th a:hover { color:#252525 !important; }
 
 .bottom {
     background: #d8e9e9 !important;
@@ -310,7 +310,7 @@ td .right {
 }
 
 td .right a { color:#384588!important; }
-td .right a hover { color:#252525 !important; }
+td .right a:hover { color:#252525 !important; }
 
 .table .right {
 background: #f5f5f5 !important;
@@ -326,7 +326,7 @@ color: #384588   !important;
 .right_cub a {
     color:#384588!important;
 }
-.right_cub a hover { color:#252525 !important; }
+.right_cub a:hover { color:#252525 !important; }
 
 .cave-grid, .mound-grid {
     background: #FFFFFF !important;
@@ -372,7 +372,7 @@ input[type="button"] {
     box-shadow: none !important;
     border-radius:0!important;
 }
-input[type="button"] a hover {color:#252525 !important;}
+input[type="button"] a:hover {color:#252525 !important;}
     
 input[type="submit"] {
 background: #f5f5f5 !important;    

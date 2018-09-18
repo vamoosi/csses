@@ -435,7 +435,7 @@ select {
 /*Sliders end*/
 
 .alert-danger, .attack-lost {
-    background: ##f5f5f5 !important;
+    background: #f5f5f5 !important;
   color: #384588 !important;
   border: none!important;
   font-family: 'Lekton' !important;
@@ -444,7 +444,7 @@ select {
 }
     
 .alert-success, .attack-won {
-    background: ##f5f5f5 !important;
+    background: #f5f5f5 !important;
     color: #384588 !important;
     border: none!important;
   font-family: 'Lekton' !important;

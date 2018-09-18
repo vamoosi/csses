@@ -213,11 +213,11 @@ color:#384588!important;
 }
     
 .progress-bar-warning {
-    background: #3d6a67 !important;
+    background: #27bcb1 !important;
 }
     
 .progress-bar-danger {
-    background: #3d6a67 !important;
+    background: #3179d6 !important;
 }
     
 .progress-bar-success {
@@ -225,7 +225,7 @@ color:#384588!important;
 }
     
 .progress-bar {
-    background: #EFE2D2 !important;
+    background: #c7aad4 !important;
 }
 
 .chat_row a { color:#ddd!important; }

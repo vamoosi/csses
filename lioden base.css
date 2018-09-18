@@ -115,7 +115,7 @@ div.container.main {
 
 .navbar {
     background:  #f5f5f5 !important;
-  border-top-right-radius: 5px;
+  border-radius: 20px 20px 0px 0px / 170px 170px 0px 0px;
     border: none!important;
     box-shadow: none !important;
     font-family: 'Lekton' !important;
@@ -156,8 +156,7 @@ div.container.main {
   font-family: 'Lekton' !important;
     border: none !important;
     border-bottom:3px solid #96d2d2!important;
-  border-bottom-right-radius: 35px;
-  border-bottom-left-radius: 35px;
+  border-radius: 0px 0px 20px 20px / 0px 0px 170px 170px;
 }
 
 .topbar a { color:#384588!important; }
@@ -228,18 +227,18 @@ color:#384588!important;
     background: #c7aad4 !important;
 }
 
-.chat_row a { color:#ddd!important; }
+.chat_row a { color:#5d3d6c!important; }
 
 table { border:none!important; }
 
 .top {
-    background: #EFE2D2 !important;
+    background: #dce8e8 !important;
     color: #384588 !important;
     border: none!important;
     text-align: center !important;
  font-family: 'Lekton' !important;
     text-transform:uppercase;
-    border-bottom:3px solid #D8B6BC  !important;
+    border-bottom:3px double #9ad2d2  !important;
     background-repeat: repeat;
     font-size:20px!important;
     letter-spacing:3px!important;

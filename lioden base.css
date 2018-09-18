@@ -187,8 +187,10 @@ color:#384588!important;
     color: #384588!important;
   font-family: 'Lekton' !important;
      border-bottom:1px dotted #9ad2d2!important;
+  font-size:12px!important;
 }
-.chat_light a { color:#5d3d6c!important; }
+.chat_light a { color:#5d3d6c!important; 
+font-weight:bold!important;}
 .chat_light a hover { color:#252525!important; }
     
 .chat_dark {
@@ -196,8 +198,10 @@ color:#384588!important;
     color: #384588 !important;
   font-family: 'Lekton' !important;
      border-bottom:1px dotted #9ad2d2!important;
+  font-size:12px!important;
 }
-.chat_dark a { color:#5d3d6c!important; }
+.chat_dark a { color:#5d3d6c!important; 
+font-weight:bold!important;}
 .chat_dark a hover { color:#252525!important; }
 
 .progress {

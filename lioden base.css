@@ -102,7 +102,7 @@ h3 {
 /*SideBar*/
 div.container.main {
     background-color:#9ad2d2!important;
-  border-top-right-radius: 5px;
+  border-radius: 35px 35px 6px 6px / 35px 35px 60px 60px;
     border: none!important;
     box-shadow:none!important;
 }
@@ -242,44 +242,43 @@ table { border:none!important; }
     background-repeat: repeat;
     font-size:20px!important;
     letter-spacing:3px!important;
-  border-top-right-radius: 35px;
-  border-top-left-radius: 35px;
+  border-radius: 20px 20px 0px 0px / 170px 170px 0px 0px;
 }
 
 .top a { color:#384588    !important; }
+.top a hover { color:#252525 !important; }
 
 th {
-    background: #EFE2D2 !important;
+    background: #dce8e8 !important;
    color:#384588    !important;
     border: none!important;
     text-align: center !important;
     font-family: 'Lekton' !important;
     font-size:15px!important;
     text-transform:uppercase;
-  border-bottom:3px solid #D8B6BC  !important;
+  border-bottom:3px double #9ad2d2  !important;
     background-repeat: repeat;
     letter-spacing:3px!important;
-  border-top-right-radius: 35px;
-  border-top-left-radius: 35px;
+  border-radius: 20px 20px 0px 0px / 170px 170px 0px 0px;
 }
 
 .th a { color:#384588  !important; }
+.th a hover { color:#252525 !important; }
 
 .bottom {
-    background: #EFE2D2 !important;
+    background: #dce8e8 !important;
     color: #384588   !important;
     border: none!important;
-  border-top:3px solid #D8B6BC  !important;
+  border-top:3px double #9ad2d2  !important;
     text-align: center !important;
    font-family: 'Lekton' !important;
-  border-bottom-right-radius: 35px;
-  border-bottom-left-radius: 35px;
+  border-radius: 0px 0px 20px 20px / 0px 0px 170px 170px;
 }
 
 .dynastylist .left { 
-    background-color:#EFE2D2!important;
+    background-color:#dce8e8!important;
   font-family: 'Lekton' !important;
-    border:2px solid #D8B6BC  !important;
+    border:2px double #9ad2d2  !important;
 }
 
 
@@ -307,6 +306,7 @@ td .right {
 }
 
 td .right a { color:#384588!important; }
+td .right a hover { color:#252525 !important; }
 
 .table .right {
 background: #f5f5f5 !important;
@@ -315,31 +315,24 @@ color: #384588   !important;
 }
 
 .right_cub {
-    background: rgba(157, 173, 72, .2) !important;
+    background: rgba(98, 123, 255, .2) !important;
   font-family: 'Lekton' !important;
 }
 
 .right_cub a {
     color:#384588!important;
 }
+.right_cub a hover { color:#252525 !important; }
 
 .cave-grid, .mound-grid {
     background: #FFFFFF !important;
-    border-radius:0px!important;
+border-radius:20px/200px!important;
     text-transform:uppercase!important;
   font-family: 'Lekton' !important;
-    border:2px solid #D8B6BC!important;
+    border:none!important;
 }
-
+.mound-grid { width:130px!important;}
 .cave-grid img{
-content:url("https://i.imgur.com/7WAC3jU.png");
-    height: 130px;
-    width: 250px;
-}
-
-.mound-grid img{
-content:url("https://i.imgur.com/7WAC3jU.png");
-    height: 130px;
     width: 250px;
 }
 

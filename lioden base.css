@@ -524,7 +524,7 @@ overflow:Auto;
 .css-typing p {
   border-right: transparent;
   font-family: 'Lekton';
-  font-size: 14px;
+  font-size: 26px;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -532,8 +532,8 @@ overflow:Auto;
 .css-typing p:nth-child(1) {
 width: 23ch;
   opacity: 0;
-  -webkit-animation: type3 1.75s steps(40, end), blink .5s step-end 8 alternate;
-  animation: type3 1.75s steps(40, end), blink .5s step-end 8 alternate;
+  -webkit-animation: type3 1.5s steps(40, end), blink .45s step-end 8 alternate;
+  animation: type3 1.5s steps(40, end), blink .45s step-end 8 alternate;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -541,10 +541,10 @@ width: 23ch;
 .css-typing p:nth-child(2) {
 width: 33ch;
   opacity: 0;
-  -webkit-animation: type3 1.75s steps(40, end), blink .5s step-end 8 alternate;
-  animation: type3 1.75s steps(40, end), blink .5s step-end 8 alternate;
-    -webkit-animation-delay: 4s;
-  animation-delay: 4s;
+  -webkit-animation: type3 1.5s steps(40, end), blink .45s step-end 8 alternate;
+  animation: type3 1.5s steps(40, end), blink .45s step-end 8 alternate;
+    -webkit-animation-delay: 3.5s;
+  animation-delay: 3.5s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -552,10 +552,10 @@ width: 33ch;
 .css-typing p:nth-child(3) {
  width: 24ch;
   opacity: 0;
-  -webkit-animation: type3 1.75s steps(40, end), blink .5s step-end 4 alternate;
-  animation: type3 1.75s steps(40, end), blink .5s step-end 4 alternate;
-  -webkit-animation-delay: 8s;
-  animation-delay: 8s;
+  -webkit-animation: type3 1.5s steps(40, end), blink .45s step-end 4 alternate;
+  animation: type3 1.5s steps(40, end), blink .45s step-end 4 alternate;
+  -webkit-animation-delay: 7s;
+  animation-delay: 7s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -563,10 +563,10 @@ width: 33ch;
 .css-typing p:nth-child(4) {
   width: 27ch;
   opacity: 0;
-  -webkit-animation: type3 1.75s steps(40, end), blink .5s step-end infinite alternate;
-  animation: type3 1.75s steps(40, end), blink .5s step-end infinite alternate;
-  -webkit-animation-delay: 10.5s;
-  animation-delay: 10.5s;
+  -webkit-animation: type3 1.5s steps(40, end), blink .45s step-end infinite alternate;
+  animation: type3 1.5s steps(40, end), blink .45s step-end infinite alternate;
+  -webkit-animation-delay: 9s;
+  animation-delay: 9s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -597,11 +597,11 @@ width: 33ch;
 
 @keyframes blink {
   50% {
-    border-right: .15em solid orange;
+    border-right: .15em solid #8b52a1;
   }
 }
 @-webkit-keyframes blink {
   50% {
-    border-right: .15em solid orange;
+    border-right: .15em solid #8b52a1;
   }
 }

@@ -64,4 +64,3 @@ if (uncommon.includes(baseName) === true) {
     baseName += ' (common)';
 }
 claimClass[0].innerHTML += ' (' + baseName + ')';
-console.log(claimClass[0].innerHTML);

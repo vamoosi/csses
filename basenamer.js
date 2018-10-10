@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         NCL Base Namer
+// @name         NCL Base Namer1
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
@@ -54,11 +54,15 @@ var getFromBetween = {
     }
 };
 var baseName = getFromBetween.get(baseList,"bases/",".png");
-if (uncommon.includes(baseName) === true) {
+baseName = baseName.toString();
+var u = uncommon.includes(baseName);
+var r = rare.includes(baseName);
+var s = special.includes(baseName);
+if (u === true) {
     baseName += ' (uncommon)';
-} else if (rare.includes(baseName) === true) {
+} else if (r === true) {
     baseName += ' (rare)';
-} else if (special.includes(baseName) === true) {
+} else if (s === true) {
     baseName += ' (special)';
 } else {
     baseName += ' (common)';
